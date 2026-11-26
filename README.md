@@ -2,7 +2,7 @@
 
 A working portfolio for **RBCS 7312 Event-Driven Programming in Java**. The repository follows the ten-week course progression from event sources and listeners to a JavaFX/MySQL University Management System.
 
-This is intentionally a code-first portfolio. The documentation explains the decisions behind the code, but the examples are small enough to read rather than merely run.
+This is intentionally a code-first portfolio. It is also an evidence record: the activity inventory identifies what is implemented, what has been build-verified, and what still needs a desktop or database session. The documentation explains the decisions behind the code, but the examples are small enough to read rather than merely run.
 
 ## Learning path
 
@@ -32,6 +32,10 @@ JavaFX modules use Maven. Open the module README for the exact command. Week 10 
 ## Authenticity note
 
 The reflections in this repository are implementation notes: they describe concrete choices, trade-offs, and observed behavior in these examples. They are not presented as a substitute for a student's own lab record. Before academic submission, I would add my own run dates, screenshots where required, and any mistakes I encountered while working through the exercises.
+
+## Academic evidence
+
+Start with [`docs/activity-inventory.md`](docs/activity-inventory.md). It maps each course activity to repository evidence and separates build-verified work from desktop and database checks. The verification record is [`docs/verification.md`](docs/verification.md). Week 10 setup and acceptance steps are in [`week-10-university-management-system/docs/setup-and-acceptance.md`](week-10-university-management-system/docs/setup-and-acceptance.md).
 
 ## Repository map
 
