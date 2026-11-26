@@ -1,0 +1,3 @@
+package portfolio.week09;
+import javafx.application.Application; import javafx.scene.Scene; import javafx.scene.control.*; import javafx.scene.layout.VBox; import javafx.stage.Stage;
+public final class FreezeDemo extends Application { public void start(Stage s){Label status=new Label("Ready");Button freeze=new Button("Block UI for 2 seconds");freeze.setOnAction(e->{try{Thread.sleep(2000);}catch(InterruptedException ex){Thread.currentThread().interrupt();}status.setText("Returned to UI thread");});VBox root=new VBox(10,freeze,status);root.setPadding(new javafx.geometry.Insets(18));s.setScene(new Scene(root,400,150));s.show();}public static void main(String[]a){launch(a);}}
