@@ -1,0 +1,3 @@
+package portfolio.week06;
+import javafx.application.Application; import javafx.scene.Scene; import javafx.scene.control.*; import javafx.scene.layout.*; import javafx.stage.Stage;
+public class LayoutDemo extends Application { public void start(Stage stage){ Label title=new Label("JavaFX foundations"); TextField name=new TextField(); name.setPromptText("Student name"); Button button=new Button("Greet"); Label result=new Label(); button.setOnAction(e->result.setText("Hello, "+name.getText().trim())); VBox box=new VBox(12,title,name,button,result); box.setPadding(new javafx.geometry.Insets(20)); stage.setScene(new Scene(box,360,220)); stage.setTitle("Week 6"); stage.show(); } public static void main(String[] a){launch(a);} }

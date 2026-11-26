@@ -1,0 +1,13 @@
+# Java / Maven
+**/target/
+*.class
+*.jar
+*.log
+# IDE files
+.idea/
+.vscode/
+*.iml
+nbproject/private/
+# Local secrets and database overrides
+.env
+*.local.properties

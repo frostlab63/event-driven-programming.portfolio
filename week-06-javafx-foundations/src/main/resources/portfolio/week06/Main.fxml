@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?><?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml" fx:controller="portfolio.week06.MainController" spacing="10"><Label text="FXML view"/><TextField fx:id="name" promptText="Name"/><Button text="Greet" onAction="#greet"/><Label fx:id="result"/></VBox>

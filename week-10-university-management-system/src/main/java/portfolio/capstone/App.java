@@ -1,0 +1,3 @@
+package portfolio.capstone;
+import javafx.application.Application; import javafx.fxml.FXMLLoader; import javafx.scene.Scene; import javafx.stage.Stage; import java.util.concurrent.*;
+public final class App extends Application { private ScheduledExecutorService scheduler; public void start(Stage stage)throws Exception{ FXMLLoader loader=new FXMLLoader(App.class.getResource("student-view.fxml")); stage.setScene(new Scene(loader.load(),900,420)); stage.setTitle("University Management System"); stage.show(); scheduler=Executors.newSingleThreadScheduledExecutor(); scheduler.scheduleAtFixedRate(()->System.out.println("System heartbeat"),0,5,TimeUnit.SECONDS); } public void stop(){if(scheduler!=null)scheduler.shutdownNow();} public static void main(String[] a){launch(a);} }

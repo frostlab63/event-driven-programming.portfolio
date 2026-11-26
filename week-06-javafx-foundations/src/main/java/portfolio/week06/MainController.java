@@ -1,0 +1,1 @@
+package portfolio.week06; import javafx.fxml.FXML; import javafx.scene.control.*; public class MainController { @FXML private TextField name; @FXML private Label result; @FXML private void greet(){ result.setText("Hello, "+name.getText().trim()); } }
