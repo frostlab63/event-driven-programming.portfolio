@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?><?import javafx.scene.layout.*?>
+<BorderPane xmlns:fx="http://javafx.com/fxml" fx:controller="portfolio.capstone.MainController"><left><VBox spacing="12" prefWidth="170"><Label text="University System"/><Button text="Students" onAction="#showStudents"/><Label fx:id="heartbeat" text="Waiting for refresh" wrapText="true"/></VBox></left><center><StackPane fx:id="content"/></center></BorderPane>
