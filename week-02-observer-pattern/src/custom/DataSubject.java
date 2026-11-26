@@ -1,0 +1,2 @@
+package custom;
+public interface DataSubject { void addObserver(DataObserver observer); void removeObserver(DataObserver observer); }
