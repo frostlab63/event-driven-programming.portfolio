@@ -31,11 +31,11 @@ JavaFX modules use Maven. Open the module README for the exact command. Week 10 
 
 ## Authenticity note
 
-The reflections in this repository are implementation notes: they describe concrete choices, trade-offs, and observed behavior in these examples. They are not presented as a substitute for a student's own lab record. Before academic submission, I would add my own run dates, screenshots where required, and any mistakes I encountered while working through the exercises.
+The reflections in this repository are implementation notes: they describe concrete choices, trade-offs, and observed behavior in these examples. Runtime screenshots are now recorded in [`docs/evidence/runtime-verification.md`](docs/evidence/runtime-verification.md), with their execution environment and limits stated clearly. They are not presented as a substitute for a student's own personal lab record; Joshua Otieno Calvary should add any local-device observations or mistakes he personally encounters before academic submission.
 
 ## Academic evidence
 
-Start with [`docs/activity-inventory.md`](docs/activity-inventory.md). It maps each course activity to repository evidence and separates build-verified work from desktop and database checks. The verification record is [`docs/verification.md`](docs/verification.md). Week 10 setup and acceptance steps are in [`week-10-university-management-system/docs/setup-and-acceptance.md`](week-10-university-management-system/docs/setup-and-acceptance.md).
+Start with [`docs/activity-inventory.md`](docs/activity-inventory.md). It maps each course activity to repository evidence and separates build-verified work from desktop and database checks. The verification record is [`docs/verification.md`](docs/verification.md), with runtime screenshots indexed in [`docs/evidence/runtime-verification.md`](docs/evidence/runtime-verification.md). Week 10 setup and acceptance steps are in [`week-10-university-management-system/docs/setup-and-acceptance.md`](week-10-university-management-system/docs/setup-and-acceptance.md).
 
 ## Repository map
 
